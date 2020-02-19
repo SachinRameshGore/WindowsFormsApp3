@@ -18,8 +18,9 @@ namespace WindowsFormsApp3
         }
 
         private void btntime_Click(object sender, EventArgs e)
-        {
+        {//this is button load event
         
+            labelTime.Text = DateTime.Now.ToString();
             labelTime.Text = DateTime.Now.ToString();
         }
 
