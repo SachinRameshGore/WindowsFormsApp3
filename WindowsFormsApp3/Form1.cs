@@ -19,7 +19,7 @@ namespace WindowsFormsApp3
 
         private void btntime_Click(object sender, EventArgs e)
         {
-        //this is comment
+        
             labelTime.Text = DateTime.Now.ToString();
         }
 
